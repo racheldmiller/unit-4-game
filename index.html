@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector Game</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1 id="name">Crystals Collector!</h1>
+    </header>
+    
+    <div class="container">
+        
+        <!-- Section for all of the rules -->
+        <div id="info">
+            <p id="rules">
+                You'll be given a random number at the start of the game.
+                <br>There's four crystals below. When you click on a crystal, you'll add a specific amount of points to your total score.
+                <br>You win by matching your total score to the random number.
+                <br>However, if your total score goes above the random number, you lose.
+                <br>The value of each crystal is hidden until you click on it.
+                <br>Each time when the game starts, the game changes the values of each crystal.
+            </p>
+        
+        <!-- Section for the random number generated -->
+        <div id="randomNum">
+        </div>
+
+        <!-- Section to keep track of the wins and losses  -->
+        <div id="wins">
+            Wins:
+        </div>
+        <br><div id="losses">
+            Losses:
+        </div>
+    
+
+        <!-- Section to place the gem images for player to click on -->
+        <div id="gems">
+        </div>
+
+        <!-- Section to state "Your total score is:" -->
+        <div id="tellScore">
+            Your total score is:
+        </div>
+
+        <!-- Section to keep track of player's score -->
+        <div id="scoreNum">
+        </div>
+
+    </div>
+
+    <script src="assets/javascript/game.js" type="text/javascript"></script>
+</body>
+</html>
