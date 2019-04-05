@@ -18,12 +18,14 @@
         <!-- Section for all of the rules -->
         <div id="info">
             <p id="rules">
-                You'll be given a random number at the start of the game.
-                <br>There's four crystals below. When you click on a crystal, you'll add a specific amount of points to your total score.
-                <br>You win by matching your total score to the random number.
-                <br>However, if your total score goes above the random number, you lose.
-                <br>The value of each crystal is hidden until you click on it.
-                <br>Each time when the game starts, the game changes the values of each crystal.
+                <ul>
+                    <li>You'll be given a random number at the start of the game.
+                    <li>There's four crystals below. When you click on a crystal, you'll add a specific amount of points to your total score.
+                    <li>You win by matching your total score to the random number.
+                    <li>However, if your total score goes above the random number, you lose.
+                    <li>The value of each crystal is hidden until you click on it.
+                    <li>Each time when the game starts, the game changes the values of each crystal.
+                </ul>
             </p>
         
         <!-- Section for the random number generated -->
@@ -41,6 +43,10 @@
 
         <!-- Section to place the gem images for player to click on -->
         <div id="gems">
+            <img src="assets/images/bluegem.png" class=gemImage id="blue" alt="Blue Gem">
+            <img src="assets/images/greengem.png" class=gemImage id="green" alt="Green Gem">
+            <img src="assets/images/redgem.png" class=gemImage id= "red" alt="Red Gem">
+            <img src="assets/images/yellowgem.png" class=gemImage id= "yellow" alt="Yellow Gem">
         </div>
 
         <!-- Section to state "Your total score is:" -->
@@ -53,7 +59,7 @@
         </div>
 
     </div>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/javascript/game.js" type="text/javascript"></script>
 </body>
 </html>
